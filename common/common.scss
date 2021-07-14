@@ -26,23 +26,7 @@
     }
 }
 
-.default, .posts, .views, .activity {
-  display: none;
-}
-
-
-.topic-list {
-  width: 100%;
-  .topic-list-item {
-    float: left;
-    width: 33.3%;
-    height: 150px;
-    &:hover {
-      transition: transform .75s;
-      transform: translateX(5px);
-    }
-  }
-}
+// deleted the part that was altering the classic default layout
 
 .nav-pills > li > a {
   transition: background .75s;
@@ -53,26 +37,8 @@
   background-color: var(--secondary);
 }
 
-
-#switcher-container {
-  display: flex;
-  justify-content: space-between;
-  width: calc(100% - 20px);
-  max-width: 1110px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0 10px;
-}
-
-.themes {
-  padding: 6px 10px;
-  border-radius: 15px;
-  transition: background .75s;
-  background-color: transparent;
-  &:hover {
-    background-color: var(--quaternary);
-  }
-}
+// deleted the part that selects html elements that
+// don't exist in the current version
 
 
 // start of toggle button (Chris)
